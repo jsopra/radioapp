@@ -1,8 +1,10 @@
-
-  if ('serviceWorker' in navigator) {
-    navigator.serviceWorker
-		.register('./sw.js');
-  }
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker
+  .register('./sw.js', {scope:''})
+  .then((registration) => {
+    // SW registrado!
+  });
+}
 
 var cacheName = 'chapeCacheUsersV1';
 
@@ -11,6 +13,9 @@ var filesToCache = [
   'manifest.json',
   'logo.png',
   'aovivo.css',
+  'facebook-f-brands.svg',
+  'instagram-brands.svg',
+  'twitter-brands.svg'
 ];
 
 
