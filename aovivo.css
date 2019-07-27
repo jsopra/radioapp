@@ -1,0 +1,101 @@
+body {
+    background: #efefef;
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0;
+}
+
+.white-row {
+    margin-top: 1em;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.white-row h2 {
+    font-size: 1.3em;
+    color: #000;
+    margin-bottom: 0.8em;
+    font-weight: bold;
+}
+
+.social-connect {
+    font-size: 1.4em;
+}
+
+.hashtag {
+    font-weight: bold;
+    font-size: 1.5em;
+    color: #223A6A;
+}
+
+@media (max-width: 767px) {
+    #inputnome {
+        margin-top: 1em;
+    }
+
+    button {
+        margin-right: 1em;
+    }
+}
+
+#logo {
+    margin-top: 2em;
+    text-align: center;
+}
+
+audio {
+    width: 100%;
+}
+
+html, body {
+    overflow-x: hidden;
+    overflow-y: auto;
+    min-height: 100%;
+    margin: 0;
+}
+
+/* social icons */
+a.social                                { 
+    display:inline-block; 
+    width:36px; height:36px; 
+    line-height:38px; 
+    font-size:20px; 
+    text-align:center; 
+    background:rgba(0,0,0,0.3); 
+    color:#fff; 
+    margin:10px 1px; 
+    text-decoration:none;
+
+    -webkit-transition: all 0.2s;
+       -moz-transition: all 0.2s;
+         -o-transition: all 0.2s;
+            transition: all 0.2s;
+}
+a.social.fa-twitter:hover               { background:#41b7d8!important; color:#fff!important; }
+a.social.fa-facebook:hover              { background:#3b5997!important; color:#fff!important; }
+a.social.fa-google-plus:hover           { background:#d64937!important; color:#fff!important; }
+a.social.fa-linkedin:hover              { background:#0073b2!important; color:#fff!important; }
+a.social.fa-vimeo-square:hover          { background:#388fc5!important; color:#fff!important; }
+a.social.fa-youtube-square:hover        { background:#A40F09!important; color:#fff!important; }
+a.social.fa-flickr:hover                { background:#ff0084!important; color:#fff!important; }
+a.social.fa-pinterest:hover                 { background:#cb2027!important; color:#fff!important; }
+a.social.fa-skype:hover                     { background:#00aff0!important; color:#fff!important; }
+a.social.fa-rss:hover                   { background:#e0812a!important; color:#fff!important; }
+a.social.default:hover                  { background:#37353A!important; color:#fff!important; }
+a.social.rounded                        { width:35px; height:35px; line-height:37px; }
+
+.rounded {
+    /* -webkit-border-radius: 50%; */
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+}

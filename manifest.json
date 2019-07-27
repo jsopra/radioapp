@@ -1,0 +1,17 @@
+{
+  "short_name": "Ouça ao Vivo",
+  "name": "Ouça a Rádio Chapecó ao Vivo",
+  "icons": [
+      {
+          "src": "android-chrome-144x144.png",
+          "sizes": "144x144",
+          "type": "image/png"
+      }
+  ],
+  "scope": "/",
+  "start_url": "/index.html",
+  "orientation": "portrait",
+  "display": "standalone",
+  "theme_color": "#31319d",
+  "background_color": "#31319d"
+}
