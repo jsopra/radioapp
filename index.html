@@ -87,6 +87,11 @@
 			  ga('create', 'UA-3314273-1', 'auto');
 			  ga('send', 'pageview');
 
+			  window.addEventListener('beforeinstallprompt', e => {
+			    e.userChoice.then(choiceResult => {
+			      ga('send', 'event', 'A2H', choiceResult.outcome);      
+			    });
+			  });
 			</script>
 	    </footer>
 	</body>
