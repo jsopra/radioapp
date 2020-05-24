@@ -99,3 +99,8 @@ a.social.rounded                        { width:35px; height:35px; line-height:3
     -moz-border-radius: 50%;
     border-radius: 50%;
 }
+
+.img-responsive {
+  width: 100%;
+  height: auto;
+}
