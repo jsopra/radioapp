@@ -15,7 +15,8 @@ var filesToCache = [
   'aovivo.css',
   'facebook-f-brands.svg',
   'instagram-brands.svg',
-  'twitter-brands.svg'
+  'twitter-brands.svg',
+  'whatsapp.png'
 ];
 
 
