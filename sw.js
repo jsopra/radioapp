@@ -6,7 +6,7 @@ if ('serviceWorker' in navigator) {
   });
 }
 
-var cacheName = 'chapeCacheUsersV1';
+var cacheName = 'chapeCacheUsersV2';
 
 var filesToCache = [
   'index.html',
