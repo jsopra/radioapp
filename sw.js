@@ -16,7 +16,7 @@ var filesToCache = [
   'facebook-f-brands.svg',
   'instagram-brands.svg',
   'twitter-brands.svg',
-  'whatsapp.png'
+  'whatsapp_v2.png'
 ];
 
 
